@@ -48,6 +48,8 @@ Pagcaixa pendencias
 
 18) ver responsividade
 
+19) Gerando controle de versao
+
 
 19)qdo selecionar a empresa atualizar a grid
 
