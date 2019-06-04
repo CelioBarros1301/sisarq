@@ -1,0 +1,93 @@
+Pagcaixa pendencias
+
+0) Configurar o MAVEN - U R G E N T E 
+
+1)bloqueio do botao excluir qdo do load da pag e liberar qdo da consulta e bloqueio apos excluir 
+
+
+2)criar controle de alteracao e insert ..R E S O L V I D O
+
+
+3)criar grid e click para preencher a tela
+
+
+4) alterar para combbox a empresa R E S O L V I D O 
+
+
+5)mostra as mensagem de caixa nao cadastrada, caixa ja cadastro R E S O L V I D O 
+
+ 
+6)mostra as mensagem de campos nao preenchidos  R E S O L V I D O 
+
+
+7)permitir so numeros na caixa R E S O L V I D O 
+
+
+8) gerar o proximo numero da caixa qdo informar zero
+
+
+10) ver campo obrigatorios
+
+
+11)tamanho campo min e max R E S O L V I D O 
+
+
+12) mostra do lado do campo o icone erro R E S O L V I D O 
+
+
+13) trazer como default a empressa PADRAO selecionada e preencher das tabelas de empresa - R E S O L V I D O 
+
+14) Boquear alterar da empresa e caixa apos a consulta R E S O L V I D O 
+
+
+14) nao pertimir acentuacao R E S O L V I D O 
+
+
+15)so maiusculas R E S O L V I D O 
+
+
+16) ver impressao em jasper. So selecionar a empresa para emitir o relatorio
+
+17) preencher com zeros a esquerda do codigo da caixa n-  R E S O L V I D O 
+
+18)ver responsividade
+
+
+19)qdo selecionar a empresa atualizar a grid
+
+20)mostra a mensagem dados salvo com sucesso , dados excluido com sucesso R E S O L V I D O 
+
+
+21)qdo da consulta selecionar a empresa no combobox - NAO E NECESSARIO, pois e campo obrigatorio R E S O L V I D O 
+
+
+22)criar tabela de paranetros  codigo descricao e valor.. codigo:1 descricao:codigo da empresa padrao valor:01 R E S O L V I D O 
+
+https://www.mkyong.com/spring-mvc/spring-mvc-dropdown-box-example/
+
+https://cursos.alura.com.br/forum/topico-pegar-valores-em-um-select-no-spring-mvc-58783
+
+23) ao abrir cadastro de Caixa se não tiver empresa cadastrada. Apresentar a Mensagem
+    Não tem Empresa Cadastrada no Sistema.Realizar Cadastro de Empresa para realizar o cadastro de caixa
+      e bloquear todos os campos para e os todos os botoes exceto o de SAIR
+    
+24) Monstra mensagem de Arquivo bloqueado
+¨
+
+25) Deixar todos os botoes com mesmo tamanho
+
+26) Processo de Controle de Insert/Alteração com erro. Verificar
+
+27) Melhorar o processo quando da consulta so preencher o combo da empresa com a empresa da  consulta  R E S O L V I D O 
+
+
+28) No processo de salva uma nova caixa não zera os id de empresa e caixa  ou bloquear o combo da empresa e caixa para não seream alterado
+para não gerar inconsistencia na aplicação 
+
+29) Ver mensagem de erro na conexão do Banco de DADOS
+
+30) Alterar as mensagem de validaçao de campos para mostra no inico do form
+
+31)Ver a implementacao do controle de panel
+
+32) Ver rotina de gravaçao de nova caixa gerando o contador do CAIXA

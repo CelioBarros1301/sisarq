@@ -1,0 +1,65 @@
+Pagcaixa pendencias
+
+1)bloqueio do botao excluir qdo do load da pag e liberar qdo da consulta e bloqueio apos excluir R E S O L V I D O 
+
+
+2)criar controle de alteracao e insert ..R E S O L V I D O
+
+
+3)criar grid e click para preencher a tela
+
+
+4) alterar para combbox a empresa R E S O L V I D O 
+
+
+5)mostra as mensagem de caixa nao cadastrada
+
+
+6)mostra as mensagem de campos nao preenchidos
+
+
+7)permitir so numeros na caixa R E S O L V I D O 
+
+
+8) gerar o proximo numero da caixa qdo informar zero
+
+
+10) ver campo obrigatorios
+
+
+11)tamanho campo min e max
+
+
+12) mostra do lado do campo o icone erro
+
+
+13) trazer como default a empressa PADRAO selecionada e preencher das tabelas de empresa - R E S O L V I D O 
+
+
+14) nao pertimir acentuacao - R E S O L V I D O 
+
+
+15)so LETRAS,NUMERO,ESPACO E TRACO - R E S O L V I D O 
+
+
+16) ver impressao em jasper. So selecionar a empresa para emitir o relatorio
+
+17) preencher com zeros a esquerda do codigo da caixa
+
+18) ver responsividade
+
+
+19)qdo selecionar a empresa atualizar a grid
+
+20)mostra a mensagem dados salvo com sucesso , dados excluido com sucesso
+
+
+21)qdo da consulta selecionar a empresa no combobox - NAO E NECESSARIO, pois e campo obrigatorio
+
+
+22)criar tabela de paranetros  codigo descricao e valor.. codigo:1 descricao:codigo da empresa padrao valor:01
+
+https://www.mkyong.com/spring-mvc/spring-mvc-dropdown-box-example/
+
+https://cursos.alura.com.br/forum/topico-pegar-valores-em-um-select-no-spring-mvc-58783
+

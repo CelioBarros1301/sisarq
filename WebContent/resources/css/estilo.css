@@ -1,0 +1,22 @@
+/* css personalizado */
+
+body {
+    padding-top: 70px;   
+}
+
+.linhaCinza {
+    background: gray;   
+}
+
+.linhaPersonalizada {
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-color-padding p {
+    padding: 15px;   
+}
+botoes{
+ padding-bottom: 70px;   
+}

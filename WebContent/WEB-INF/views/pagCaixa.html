@@ -1,0 +1,106 @@
+<!--
+*Sistame Base....: Sistema de Controle de Arquivo(SISARQ)
+*Pagina..........: pagCaixa.jsp
+*Data Criação....: 24.06.2018
+*Autor...........: Celio Barros
+*Objeto..........: CRUD Tabela de Caixa
+*Ultima Alteração: 29.06.2018 - Incluido Botoes de Acoes
+*
+*icones..........: getbootstrap.com Components Glyphicons
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema de Controle de Arquivo</title>
+        
+        <!-- define a viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        
+        <meta charset="UTF-8">
+
+        <!-- adicionar CSS Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <!-- css personalizado -->
+        <link href="css/csspadrao.css" rel="stylesheet" media="screen">
+        <link href="css/csssisarq.css" rel="stylesheet" media="screen">
+        
+    </head>
+    <body>
+        <div id="botoes" class="container">
+            <div class="row">
+                <!-- Definicoes dos Botoes de Acoes-->
+                <div class="col-xs-12">
+
+                    <button  class="btn btn-primary btn-sm">
+                    <span class="glyphicon glyphicon-log-in"></span> Novo
+                    </button>
+
+                    <a hef="#" class="btn btn-primary btn-sm">
+                        <span class="glyphicon glyphicon-search"></span> Consultar
+                    </a>
+
+                    <a hef="#" class="btn btn-primary btn-sm" disabled>
+                        <span class="glyphicon glyphicon-trash"></span> Excluir
+                    </a>
+
+                    <a hef="#" class="btn btn-primary btn-sm" disabled>
+                        <span class="glyphicon glyphicon-floppy-disk"></span> Salvar
+                    </a>
+
+                    <a hef="#" class="btn btn-primary btn-sm" disabled>
+                        <span class="glyphicon glyphicon-refresh"></span> Processar
+                    </a>
+
+                    <a hef="#" class="btn btn-primary btn-sm" disabled>
+                        <span class="glyphicon glyphicon-print"></span> Imprimir
+                    </a>
+
+                    <a hef="#" class="btn btn-primary btn-sm" >
+                        <span class="glyphicon glyphicon-search"></span> Sair
+                    </a>
+                </div>
+                <!-- Fim dos Botoes de Acoes-->
+            </div>
+        </div>
+        <!--- Formulario da Pagina-->
+        <div  class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <form  class="form-horizontal">
+
+                        <div class="form-group form-group-sm">
+                            <lable for="cdEmpresa" class="col-xs-offset-1 col-xs-2 control-label">Empresa:</lable>
+                            <div class="col-xs-8">
+                                <select class="form-control">
+                                    <option>Empresa 01</option>
+                                    <option>Empresa 02</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group form-group-sm">
+                            <lable for="cdCaixa" class="col-xs-offset-1 col-xs-2 control-label">Caixa:</lable>
+                            <div class="col-xs-8"  >
+                                <input type="text" class="form-control size_06"  id="cdCaixa" placeholder="Codigo da caixa"  maxlength="6" >
+                                <span class="help-block">Informar Zero para Gerar Codigo da Caixa</span>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <lable for="dsCaixa" class="col-xs-offset-1 col-xs-2 control-label">Descrição:</lable>
+                            <div class="col-xs-8">
+                                <input type="text" class="form-control " id="dsCaixa" placeholder="Descrição da Caixa">
+                            </div>
+                                                                                                                 <div class="col-xs-8">
+                            <input class="btn btn-primary" type="submit" value="Salvar" name="vAcao" />
+                            </div>                                                               
+                        </div>
+                    </form>
+                </div>
+             </div>
+        </div>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
